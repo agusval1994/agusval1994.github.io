@@ -239,10 +239,19 @@ footer .footerDiv .footText{
     height: 0px;
 }
 
+.imgMain{
+    max-width: 95%;
+    width: auto;
+    max-height: 95%;
+    height: auto;
+}
 
-
-
-
+.videoMain{
+    max-width: 95%;
+    width: auto;
+    max-height: 95%;
+    height: auto;
+}
 
 
 
