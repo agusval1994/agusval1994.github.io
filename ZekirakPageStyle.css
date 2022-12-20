@@ -178,13 +178,6 @@ footer .footerDiv .footText{
 ---------------------------Home Page-------------------------------------
 ----------------------------------------------------------------------------*/
 
-/*.PageHome .newsContents{
-    display: inline-block;
-    vertical-align: middle;
-    background: black;
-    border-radius: 1vw 1vw 1vw 1vw;
-}*/
-
 .PageHome .title{
     text-align: center;
     font-family: papyrus;
@@ -252,6 +245,8 @@ footer .footerDiv .footText{
     max-height: 95%;
     height: auto;
 }
+
+
 
 
 
@@ -413,4 +408,20 @@ hr.dashed {
 
 li{
     margin-bottom: 2px;
+}
+
+
+/*--------------------------------------------------------------------------
+---------------------------CODE---------------------------------------------
+----------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1550px){
+    div.menu a{
+        font-size: 28px;
+        padding-top: 10px;
+    }
+
+    .newsContents{
+        max-width: 950px;
+    }
 }
