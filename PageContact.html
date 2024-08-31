@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="js/js.js"></script>
+
+    <link rel="stylesheet" href="css/ZekirakPageStyle.css">
+
     <title>PageContact</title>
-    <link rel="stylesheet" href="ZekirakPageStyle.css">
 </head>
 
 <body>
@@ -30,20 +33,16 @@
         </div>
     </div>
 
-
     <div class="container">
         <div class="newsContainer">            
-            <div class="news">
+            <div class="cards">
                 <div class="left">
                     <div>
-                        <h2>Agustin Val</h2>
+                        <h2>Independent Unity Developer</h2>
                         <hr class="dashedPrincipal">
-                        <h3>Systems Engineering Student </h3>
-                        <h3>Independent Unity Developer </h3>
-                    </div>
-
-                    <div>
-                        <img class="profileImage" src="profileImage.png" alt>
+                        <h3>I make games and 3D models in my free time.<br />
+                            Follow me on this journey!
+                        </h3>
                     </div>
                   
                     <div>
@@ -51,25 +50,25 @@
                     </div>
       
                     <div class="contactInfo">
-                        <img class="contactIcon" src="mailIcon.png">
+                        <img class="contactIcon icon" src="mailIcon.png">
                         <h5>Mail:</h5>
                         <h6>agusval1994@hotmail.com</h6>
                     </div>
         
                     <div class="contactInfo">
-                        <img class="contactIcon" src="linkedInIcon.png">
+                        <img class="contactIcon icon" src="linkedInIcon.png">
                         <h5>LinkedIn:</h5>
                         <h6>https://www.linkedin.com/in/agusval</h6>
                     </div>
         
                     <div class="contactInfo">
-                        <img class="contactIcon" src="gitHubIcon.png">
-                        <h5>LinkedIn:</h5>
+                        <img class="contactIcon icon" src="gitHubIcon.png">
+                        <h5>GitHub:</h5>
                         <h6>https://github.com/agusval1994</h6>
                     </div>
 
                     <div class="contactInfo">
-                        <img class="contactIcon" src="sketchfabIcon.png">
+                        <img class="contactIcon icon" src="sketchfabIcon.png">
                         <h5>Sketchfab:</h5>
                         <h6>https://sketchfab.com/Agustin.Val</h6>
                     </div>
@@ -77,61 +76,55 @@
                 </div>
             </div>
             
-            <div class="news">
+            <div class="cards">
                 <div class="right">
-                    <div class="block">
-                        <h2>Personal Information</h2>
-                        <p>Country: Argentina</p>
-                        <p>Age: 28</p>
-                        <hr class="dashed">
-                    </div>
     
                     <div class="block">
-                        <h2>Studies</h2>
-                        <p>Systems Engineering Student in 3rd year</p>
-                        <p>Institution: UTN</p>
-                        <hr class="dashed">
-                    </div>
-    
-                    <div class="block">
-                        <h2>Skills</h2>
-                        <ul>                        
-                            <li type="disc">English: Intermediate</li>
+                        <h2>Game Skills</h2>
+                        <ul>
                             <li type="disc">Unity: Intermediate</li>
-                            <li type="disc">Office: Advanced</li>
-                            <li type="disc">C#: Basic</li>
-                            <li type="disc">SQL: Basic</li>
+                            <li type="disc">C#: Intermediate</li>
+                            <li type="disc">Blender : Basic</li>
                             <li type="disc">AndroidStudio: Basic</li>
                             <li type="disc">Java: Basic</li>
-                            <li type="disc">Haskell: Basic</li>
-                            <li type="disc">Prolog: Basic</li>
-                            <li type="disc">Blender : Basic</li>
-                            <li type="disc">Html : Basic</li>
                         </ul>
                         <hr class="dashed">
                     </div>
-    
+
                     <div class="block">
-                        <h2>Courses</h2>
-                        <ul>                        
-                            <li><a href="https://drive.google.com/file/d/1_ovlLv6v5LrFTvDQJhuIs5h5LxQJKHxy/view">Fundamentos de las Bases de Datos</a></li>
-                            <li><a href="https://drive.google.com/file/d/11kPC347K_RFVRCXpsxXkBS6iDQlTzaXh/view">Programación en Base de Datos Oracle</a></li>
-                            <li><a href="https://drive.google.com/file/d/1XK1IKjFH0YSF-LJzVUNVx82nyYixcxZK/view">Programación de Video Juegos con Unity</a></li>
+                        <h2>Programing Skills</h2>
+                        <ul>
+                            <li type="disc">Html : Basic</li>
+                            <li type="disc">Css : Basic</li>
+                            <li type="disc">JavaScript : Basic</li>
+                            <li type="disc">SQL: Basic</li>
+                            <li type="disc">Haskell: Basic</li>
+                            <li type="disc">Prolog: Basic</li>
+                            <li type="disc">C++: Basic</li>
                         </ul>
-                    </div>                    
+                        <hr class="dashed">
+                    </div>
+
+                    <div class="block">
+                        <h2>Other Skills</h2>
+                        <ul>                        
+                            <li type="disc">English: Intermediate</li>
+                            <li type="disc">Office: Advanced</li>
+                        </ul>
+                    </div>               
                 </div>
             </div>
         </div>
     </div>
 
     <footer>
-        <div class="footerDiv">
+        <div class="footerDiv" id="miDiv">
             <p class="footText">
                 Zekirak - Unity Game Developer
             </p>       
-            <a class="footerIcon" href="https://github.com/agusval1994"><img src="gitHubIcon.png"></a>
-            <a class="footerIcon" href="https://www.linkedin.com/in/agusval"><img src="linkedInIcon.png"></a>
-            <a class="footerIcon" href="mailto: agusval1994@hotmail.com"><img src="mailIcon.png"></a>
+            <!--<a class="footerIcon" href="https://github.com/agusval1994"><img class="icon" src="gitHubIcon.png"></a>
+            <a class="footerIcon" href="https://www.linkedin.com/in/agusval1994"><img class="icon" src="linkedInIcon.png"></a>
+            <a class="footerIcon" href="mailto: agusval1994@hotmail.com"><img class="icon" src="mailIcon.png"></a>-->
         </div>
     </footer>
 </body>
